@@ -10,7 +10,7 @@ module.exports = {
         filename: 'bundle.js',
         publicPath: ''
     },
-    devtool: 'none',//'cheap-module-eval-source-map',
+    devtool: 'cheap-module-eval-source-map',
     module: {
         rules: [
             {
